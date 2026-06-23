@@ -1,4 +1,4 @@
-import { useState, FormEvent } from 'react';
+import { useState, type FormEvent } from 'react';
 
 export const ContactForm = () => {
   const [status, setStatus] = useState<'idle' | 'enviando' | 'sucesso' | 'erro'>('idle');
