@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <section id="home" className="hero container">
+    <section id="home" className="hero-container">
       <div className="hero-content">
         <span className="tag">Olá</span>
         <h1 className="hero-title">Uma solução que irá te entregar X</h1>
@@ -12,9 +12,6 @@ export const Hero = () => {
           <a href="#solucoes" className="btn btn-outline">Saiba mais</a>
         </div>
       </div>
-
-      {/* A forma geométrica azul do lado direito (Desktop) / topo (Mobile) */}
-      <div className="hero-bg-shape"></div>
     </section>
   );
 };

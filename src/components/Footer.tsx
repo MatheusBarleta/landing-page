@@ -36,7 +36,7 @@ export const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>Feito com React + Netlify ❤️ Todos os direitos reservados.</p>
+        <p>©2026 - Todos os direitos reservados.</p>
       </div>
     </footer>
   );
